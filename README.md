@@ -13,11 +13,14 @@ https://techbookfest.org/product/gU35fVzeBgVe7x7rqXSVYe
 3. Hakadorun2をPCなどに接続してください (PCとHakadorun2の間にUSBハブを入れることはできます)
 
 認識しない場合、または認識するがキーの反応がおかしい場合は、Hakadorn2をいったん抜いて再度PCなどに接続してみてください。
+（不安定な場合、指して → 速攻で抜いて → 速攻で指すというのをやると認識するかもです）
 
 ### 設定
 Hakadorun2の設定は、　Hakadorun2_Client.exe　を用いて行います。
 Hakadorun2_Client.exe は リリースパッケージ (zip) ファイル内に含まれています。
 Hakadorun2をPCに接続した状態で、Hakadorun2_Client.exeを以下いずれかの引数をつけて実行してください。
+
+ツールの実行には「Visual C++ 再頒布可能パッケージ」が必要です。ツールを実行して、～.DLLが見つからないといったエラーが出た場合は、 https://learn.microsoft.com/ja-JP/cpp/windows/latest-supported-vc-redist よりVisual Studio 2015、2017、2019、および 2022のC++ 再頒布可能パッケージをダウンロードし、インストールしてください。
 
 #### version
 Hakadorun2のファームウエアバージョンを表示します。
