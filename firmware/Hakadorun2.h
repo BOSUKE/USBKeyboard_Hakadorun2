@@ -5,7 +5,7 @@
 #include "Queue.h"
 #include "ClientIF.h"
 
-#define HAKADORUN_FW_VERSION    "0.0.1"
+#define HAKADORUN_FW_VERSION    "0.0.2"
 
 enum VOS_DEV_ENUM {
     VOS_DEV_UART,
