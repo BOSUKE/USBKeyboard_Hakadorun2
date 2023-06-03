@@ -1,10 +1,22 @@
 #ifndef CLIENT_IF_H_
 #define CLIENT_IF_H_
+
 #ifdef _MSC_VER
+
 #include <stdint.h>
 typedef uint8_t uint8;
 typedef uint16_t uint16;
 #pragma pack(push, 1)
+
+#else
+
+#include <cstdint>
+typedef uint8_t uint8;
+typedef uint16_t uint16;
+typedef uint16_t USHORT;
+#include <cwchar>
+typedef wchar_t WCHAR;
+
 #endif
 
 typedef enum LANG_CONVERT_MODE_ {
