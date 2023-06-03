@@ -1,3 +1,7 @@
+# Windows用クライアント
+Visual Studio 2022で作成した。
+Hakadorun2_Client.slnを開いてビルド。
+
 # Linux用クライアント
 
 ## 要るもの
@@ -5,6 +9,11 @@
 Archlinux系
 ```bash
 yay -S hidapi
+```
+
+Ubuntu
+```bash
+sudo apt install libhidapi-dev
 ```
 
 ## コンパイル
