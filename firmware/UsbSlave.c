@@ -100,10 +100,10 @@ rom uint8 HID_REPORT_DESCRIPTOR[] = {
   0x95, 0x06,   //     Report Count (6)
   0x75, 0x08,   //     Report Size (8)
   0x15, 0x00,   //     Logical Minimum (0)
-  0x25, 0x65,   //     Logical Maximum (101)
+  0x25, 0xE7,   //     Logical Maximum (231)
   0x05, 0x07,   //     Usage Page (Key codes)
   0x19, 0x00,   //     Usage Minimum (0)
-  0x29, 0x65,   //     Usage Maximum (101)
+  0x29, 0xE7,   //     Usage Maximum (231)
   0x81, 0x00,   //     Input (Data, Array) Key array(6 bytes)
   0xC0,         //  End Collection
 

@@ -466,6 +466,9 @@ static void setup_io_mux(void)
 
 	// UART TX (For Debug) 23pin
 	vos_iomux_define_output(23, IOMUX_OUT_UART_TXD);
+	// UART RX (For Debug) 24pin
+	vos_iomux_define_input(24, IOMUX_IN_UART_RXD);
+  	vos_iocell_set_config(24, VOS_IOCELL_DRIVE_CURRENT_4MA, VOS_IOCELL_TRIGGER_NORMAL, VOS_IOCELL_SLEW_RATE_FAST, VOS_IOCELL_PULL_UP_75K);
 }
 
 int b_memcmp(const void *a, const void *b, int size)
